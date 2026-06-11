@@ -26,4 +26,25 @@ function refreshMarket() {
     );
 
     document.querySelector(".roi").innerText = Math.floor(Math.random() * 40 + 10) + "%";
+
+    const releaseDate = new Date("May 26, 2026");
+
+function updateCountdown() {
+    const now = new Date();
+    const difference = releaseDate - now;
+
+    const days = Math.ceil(
+        difference / (1000 * 60 * 60 * 24)
+    );
+
+    const countdown = document.getElementById("countdown");
+
+    if (days > 0) {
+        countdown.textContent = `${days} Days Remaining`;
+    } else {
+        countdown.textContent = "GTA 6 Released!";
+    }
+}
+
+updateCountdown();
 }
