@@ -175,3 +175,21 @@ footer {
     border-top: 1px solid #222;
     color: #888;
 }
+
+.card, .feature-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.card:hover, .feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.25);
+}
+
+section {
+    padding: 100px 10%;
+}
+
+h1, h2 {
+    letter-spacing: 1px;
+}
