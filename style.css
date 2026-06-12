@@ -193,3 +193,88 @@ section {
 h1, h2 {
     letter-spacing: 1px;
 }
+
+.briefing {
+
+    padding: 100px 10%;
+
+    background: #111;
+}
+
+.briefing h2 {
+
+    text-align: center;
+
+    font-size: 42px;
+
+    margin-bottom: 50px;
+}
+
+.briefing-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 25px;
+}
+
+.brief-card {
+
+    background: #1a1a1a;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.25s;
+}
+
+.brief-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 0 20px rgba(168,85,247,.4);
+}
+
+.emoji {
+
+    font-size: 36px;
+
+    margin-bottom: 15px;
+}
+
+.brief-card h3 {
+
+    margin-bottom: 10px;
+
+    color: #a855f7;
+}
+
+.brief-card p {
+
+    color: #cfcfcf;
+}
+
+.update-banner {
+
+    padding: 40px;
+
+    text-align: center;
+
+    background: rgba(168,85,247,.1);
+
+    border-top: 1px solid rgba(168,85,247,.3);
+
+    border-bottom: 1px solid rgba(168,85,247,.3);
+}
+
+.update-banner h2 {
+    margin-bottom: 15px;
+}
