@@ -1,0 +1,35 @@
+:root {
+
+    /* Core background (dark, cinematic) */
+    --bg: #0B0B12;
+
+    /* Surface panels */
+    --surface: #141425;
+    --surface-2: #1C1C33;
+
+    /* Primary neon (Vice City pink/purple vibe) */
+    --primary: #FF3D9A;
+
+    /* Secondary neon (electric blue) */
+    --secondary: #4DA3FF;
+
+    /* Accent (sunset orange) */
+    --accent: #FF8A3D;
+
+    /* Text */
+    --text: #FFFFFF;
+    --text-dim: #B7B7C7;
+
+    /* Utility colors */
+    --success: #2EE59D;
+    --danger: #FF4D4D;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
