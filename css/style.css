@@ -33,3 +33,86 @@ body {
     color: var(--text);
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: var(--surface);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links a {
+    margin: 0 12px;
+    color: var(--text-dim);
+    text-decoration: none;
+}
+
+.cta {
+    background: var(--primary);
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    color: var(--text-dim);
+}
+
+/* BUTTONS */
+.hero-buttons button {
+    margin: 10px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary {
+    background: var(--primary);
+    color: white;
+}
+
+.secondary {
+    background: var(--surface-2);
+    color: white;
+}
+
+/* FEATURED SECTION */
+.featured {
+    padding: 40px;
+    text-align: center;
+}
+
+.card-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: var(--surface);
+    padding: 20px;
+    border-radius: 14px;
+    width: 220px;
+}
+
+
